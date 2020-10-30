@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 cp update /usr/bin/up
+cd /usr/bin
 chmod +x up
-sh -c up
+
 
