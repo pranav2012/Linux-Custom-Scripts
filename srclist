@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+cp src /etc/apt/src
+
+cd /etc/apt
+
+rm sources.list 
+
+mv src sources.list

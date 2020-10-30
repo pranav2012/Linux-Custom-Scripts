@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+var=${1:-normal}
+if [ $var == "full" ]; then
+echo "full upgrading ..."
+apt-get install && apt-get full-upgrade -y
+sleep 3
+clear
+cat /etc/os-release 
+else
+echo "$var updating..."
+apt-get install && apt-get upgrade -y
+sleep 5
+clear
+fi
+
+
+
+

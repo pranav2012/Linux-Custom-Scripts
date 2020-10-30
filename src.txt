@@ -1,0 +1,3 @@
+deb https://mirrors.ocf.berkeley.edu/kali kali-rolling main contrib non-free
+# For source package access, uncomment the following line
+deb-src https://mirrors.ocf.berkeley.edu/kali kali-rolling main contrib non-free

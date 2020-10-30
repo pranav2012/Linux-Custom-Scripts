@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+cp update /usr/bin/up
+chmod +x up
+sh -c up
+

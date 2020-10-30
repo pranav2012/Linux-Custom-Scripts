@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+./srclist
+./autoupdate
+up
+./setupvs
+
