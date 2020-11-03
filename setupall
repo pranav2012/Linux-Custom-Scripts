@@ -3,5 +3,6 @@
 ./srclist
 ./autoupdate
 up
+./teams
 ./setupvs
 
