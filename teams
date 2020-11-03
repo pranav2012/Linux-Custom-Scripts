@@ -1,4 +1,4 @@
-#!/usr/env/bin bash
+#!/usr/bin/env bash
 
 sudo wget -O team  https://go.microsoft.com/fwlink/p/?LinkID=2112886&clcid=0x4009&culture=en-in&country=IN
 sleep 4
