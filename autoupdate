@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-cp update /usr/bin/up
-cd /usr/bin
-chmod +x up
+sudo cp update /usr/bin/up
+sudo cd /usr/bin
+sudo chmod +x up
 
 

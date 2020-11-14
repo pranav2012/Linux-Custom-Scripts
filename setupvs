@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
-sudo wget -O vs https://go.microsoft.com/fwlink/?LinkID=760868
-sleep 4
-sudo apt install vs.deb
-sleep 3
+sudo wget -O vs.deb https://go.microsoft.com/fwlink/?LinkID=760868
+sleep 2
+wait
+sudo apt install ./vs.deb
+sleep 1
+wait
 sudo add-apt-repository -y "deb https://packages.microsoft.com/repos/vscode stable main "
