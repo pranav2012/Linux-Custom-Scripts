@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-./srclist
-./autoupdate
-up
-./teams
-./setupvs
+sudo ./srclist
+sudo ./autoupdate
+sudo up
+sudo ./teams
+sudo ./setupvs
 
